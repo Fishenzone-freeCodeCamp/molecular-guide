@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  padding: 10px;
+  background: #14a098;
+  color: black;
+}
+
+#navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 15%;
+  height: 100%;
+  border-right: solid;
+  border-color: #0f292f;
+  background: #cb2d6f;
+  border-bottom: solid;
+  overflow-y: auto;
+  overflow-x: auto;
+  color: white;
+}
+
+#navbar header {
+  margin: 10px;
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: bolder;
+}
+
+#navbar ul {
+  padding: 0;
+  height: 83%;
+  font-size: 1.1em;
+}
+
+#navbar li {
+  border-top: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 10px 20px;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 15%;
+  color: #501f3a;
+}
+
+.card {
+  background-color: #cccccc;
+  padding: 20px;
+  margin: 20px;
+}
+
+header {
+  text-align: left;
+  margin: 0px;
+  font-size: 1.3em;
+  font-weight: bolder;
+}
+
+section article {
+  margin: 15px;
+  font-size: 0.96em;
+}
+
+section li {
+  margin: 15px 0px 0px 20px;
+}
+
+.footer {
+  padding: 10px;
+  text-align: right;
+  background: #501f3a;
+  color: white;
+  margin: 20px;
+  margin-bottom: 0;
+}
